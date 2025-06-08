@@ -292,7 +292,7 @@ const drainQueue = async (domain, actions, q) => {
 const processMeetings = async(domain, hubId, q) => {
 
   const account = domain.integrations.hubspot.accounts.find(account => account.hubId === hubId);
-  const lastPulledDate = new Date(account.lastPulledDates.contacts);
+  const lastPulledDate = new Date(account.lastPulledDates.meetings);
   const now = new Date();
 
   const offsetObject = {};
@@ -315,21 +315,36 @@ const processMeetings = async(domain, hubId, q) => {
     });
     const meetings = searchResults.results || [];
 
-    const meetingIds = meetings.map(meeting => ({ id: meeting.id }));
-
+    // Lookup the contacts that attended the meetings
     const attendingContacts = await backoff(async () => {
       const response = await hubspotClient.apiRequest({
         method: 'POST',
         path: '/crm/v3/associations/MEETINGS/CONTACTS/batch/read',
         body: {
-          inputs: meetingIds
+          inputs:  meetings.map(meeting => ({ id: meeting.id }))
         }
       });
       return await response.json();
     });
+
+    const uniqueContactIds = new Set();
     const contactLookup = attendingContacts.results.reduce((acc, item) => {
       if (item.from && item.to && item.to.length > 0) {
         acc[item.from.id] = item.to.map(contact => contact.id);
+        item.to.forEach(contact => uniqueContactIds.add(contact.id));
+      }
+      return acc;
+    }, {});
+
+    const attendingEmailsResponse = await backoff(async () => {
+      return await hubspotClient.crm.contacts.batchApi.read({
+        inputs: Array.from(uniqueContactIds).map(id => ({id})), 
+        properties: ['email']
+      });
+    }); 
+    const attendingEmails = attendingEmailsResponse.results.reduce((acc, contact) => {
+      if (contact.properties && contact.properties.email) {
+        acc[contact.id] = contact.properties.email;
       }
       return acc;
     }, {});
@@ -342,6 +357,7 @@ const processMeetings = async(domain, hubId, q) => {
       if (!meeting.properties) return;
 
       const contacts = contactLookup[meeting.id] || [];
+      const contactEmails = contacts.map(contactId => attendingEmails[contactId]).filter(email => email);
 
       const actionTemplate = {
         includeInAnalytics: 0,
@@ -352,8 +368,7 @@ const processMeetings = async(domain, hubId, q) => {
           meeting_end_time: new Date(meeting.properties.hs_meeting_end_time),
           meeting_created_at: new Date(meeting.createdAt),
           meeting_updated_at: new Date(meeting.updatedAt),
-          // temporary JSON stringify before fixing up the goal method
-          meeting_contacts: JSON.stringify(contacts), 
+          meeting_contacts: contactEmails, 
         }
       };
 
@@ -396,15 +411,7 @@ const pullDataFromHubspot = async () => {
 
     const actions = [];
     const q = createQueue(domain, actions);
-
-    // temporarily execute this first
-    try {
-      await processMeetings(domain, account.hubId, q);
-      console.log('process meetings');
-    } catch (err) {
-      console.log(err, { apiKey: domain.apiKey, metadata: { operation: 'processMeetings', hubId: account.hubId } });
-    }
-
+    
     try {
       await processContacts(domain, account.hubId, q);
       console.log('process contacts');
@@ -418,6 +425,14 @@ const pullDataFromHubspot = async () => {
     } catch (err) {
       console.log(err, { apiKey: domain.apiKey, metadata: { operation: 'processCompanies', hubId: account.hubId } });
     }
+
+    try {
+      await processMeetings(domain, account.hubId, q);
+      console.log('process meetings');
+    } catch (err) {
+      console.log(err, { apiKey: domain.apiKey, metadata: { operation: 'processMeetings', hubId: account.hubId } });
+    }
+
 
     try {
       await drainQueue(domain, actions, q);
