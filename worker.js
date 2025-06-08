@@ -374,6 +374,10 @@ const processMeetings = async(domain, hubId, q) => {
     if (!offsetObject?.after) break;
   }
 
+  account.lastPulledDates.meetings = now;
+  await saveDomain(domain);
+
+  return true;
 }
 
 const pullDataFromHubspot = async () => {
