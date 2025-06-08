@@ -315,12 +315,33 @@ const processMeetings = async(domain, hubId, q) => {
     });
     const meetings = searchResults.results || [];
 
+    const meetingIds = meetings.map(meeting => ({ id: meeting.id }));
+
+    const attendingContacts = await backoff(async () => {
+      const response = await hubspotClient.apiRequest({
+        method: 'POST',
+        path: '/crm/v3/associations/MEETINGS/CONTACTS/batch/read',
+        body: {
+          inputs: meetingIds
+        }
+      });
+      return await response.json();
+    });
+    const contactLookup = attendingContacts.results.reduce((acc, item) => {
+      if (item.from && item.to && item.to.length > 0) {
+        acc[item.from.id] = item.to.map(contact => contact.id);
+      }
+      return acc;
+    }, {});
+
     offsetObject.after = parseInt(searchResults.paging?.next?.after);
 
     console.log('fetch meeting batch');
 
     meetings.forEach(meeting => {
       if (!meeting.properties) return;
+
+      const contacts = contactLookup[meeting.id] || [];
 
       const actionTemplate = {
         includeInAnalytics: 0,
@@ -330,10 +351,11 @@ const processMeetings = async(domain, hubId, q) => {
           meeting_start_time: new Date(meeting.properties.hs_meeting_start_time),
           meeting_end_time: new Date(meeting.properties.hs_meeting_end_time),
           meeting_created_at: new Date(meeting.createdAt),
-          meeting_updated_at: new Date(meeting.updatedAt)
+          meeting_updated_at: new Date(meeting.updatedAt),
+          // temporary JSON stringify before fixing up the goal method
+          meeting_contacts: JSON.stringify(contacts), 
         }
       };
-
 
       // Update and creation timestamps differ in HubSpot API for newly created resources.
       // Because of that we are checking lastPulledDate against createdAt because we assume that 
