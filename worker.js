@@ -283,6 +283,77 @@ const drainQueue = async (domain, actions, q) => {
   return true;
 };
 
+/***
+ * processMeetings fethces meetings from HubSpot API and processes them as actions.
+ * @param {Object} domain - The domain object containing integration details
+ * @param {string} hubId - The HubSpot account ID
+ * @param {queue} q - The queue to push actions to
+ */
+const processMeetings = async(domain, hubId, q) => {
+
+  const account = domain.integrations.hubspot.accounts.find(account => account.hubId === hubId);
+  const lastPulledDate = new Date(account.lastPulledDates.contacts);
+  const now = new Date();
+
+  const offsetObject = {};
+  const limit = 100;
+
+  while (true) {
+    const lastModifiedDate = offsetObject.lastModifiedDate || lastPulledDate;
+    const lastModifiedDateFilter = generateLastModifiedDateFilter(lastModifiedDate, now, 'hs_lastmodifieddate');
+
+    const searchObject = {
+      filterGroups: [lastModifiedDateFilter],
+      sorts: [{ propertyName: 'hs_lastmodifieddate', direction: 'ASCENDING' }],
+      properties: ['hs_meeting_title', 'hs_meeting_start_time', 'hs_meeting_end_time'],
+      limit,
+      after: offsetObject.after
+    };
+
+    const searchResults = await backoff(async () => {
+      return await hubspotClient.crm.objects.meetings.searchApi.doSearch(searchObject);
+    });
+    const meetings = searchResults.results || [];
+
+    offsetObject.after = parseInt(searchResults.paging?.next?.after);
+
+    console.log('fetch meeting batch');
+
+    meetings.forEach(meeting => {
+      if (!meeting.properties) return;
+
+      const actionTemplate = {
+        includeInAnalytics: 0,
+        meetingProperties: {
+          meeting_id: meeting.id,
+          meeting_title: meeting.properties.hs_meeting_title,
+          meeting_start_time: new Date(meeting.properties.hs_meeting_start_time),
+          meeting_end_time: new Date(meeting.properties.hs_meeting_end_time),
+          meeting_created_at: new Date(meeting.createdAt),
+          meeting_updated_at: new Date(meeting.updatedAt)
+        }
+      };
+
+
+      // Update and creation timestamps differ in HubSpot API for newly created resources.
+      // Because of that we are checking lastPulledDate against createdAt because we assume that 
+      // the meeting is created if we see it for the first time:
+      // - First pull (no lastPulledDate) => meeting is created
+      // - Any pull after that => if meeting.createdAt is after lastPulledDate (meaning it's in current page) then it's created, otherwise it's updated
+      const isCreated = !lastPulledDate || (new Date(meeting.createdAt) > lastPulledDate);
+
+      q.push({
+        actionName: isCreated ? 'Meeting Created' : 'Meeting Updated',
+        actionDate: new Date(isCreated ? meeting.createdAt : meeting.updatedAt),
+        ...actionTemplate
+      });
+    });
+
+    if (!offsetObject?.after) break;
+  }
+
+}
+
 const pullDataFromHubspot = async () => {
   console.log('start pulling data from HubSpot');
 
@@ -299,6 +370,14 @@ const pullDataFromHubspot = async () => {
 
     const actions = [];
     const q = createQueue(domain, actions);
+
+    // temporarily execute this first
+    try {
+      await processMeetings(domain, account.hubId, q);
+      console.log('process meetings');
+    } catch (err) {
+      console.log(err, { apiKey: domain.apiKey, metadata: { operation: 'processMeetings', hubId: account.hubId } });
+    }
 
     try {
       await processContacts(domain, account.hubId, q);
