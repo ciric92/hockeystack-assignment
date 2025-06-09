@@ -1,0 +1,4822 @@
+connected to database
+start pulling data from HubSpot
+start processing account
+fetch contact batch
+process contacts
+fetch company batch
+fetch company batch
+fetch company batch
+fetch company batch
+fetch company batch
+process companies
+fetch meeting batch
+process meetings
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-02-17T04:48:43.189Z",
+  "includeInAnalytics": 0,
+  "identity": "emailmaria@hubspot.com",
+  "userProperties": {
+    "contact_name": "Maria Johnson (Sample Contact)",
+    "contact_title": "Salesperson",
+    "contact_source": "OFFLINE",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-03-18T01:56:28.190Z",
+  "includeInAnalytics": 0,
+  "identity": "john@doe.com",
+  "userProperties": {
+    "contact_name": "John Doe",
+    "contact_title": "Who knows!",
+    "contact_source": "OFFLINE",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-03-18T02:02:58.334Z",
+  "includeInAnalytics": 0,
+  "identity": "jjob1993@gmail.com",
+  "userProperties": {
+    "contact_name": "Jay Job",
+    "contact_source": "OFFLINE",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-02-17T06:22:51.551Z",
+  "includeInAnalytics": 0,
+  "identity": "john@company1.com",
+  "userProperties": {
+    "contact_name": "John Smith",
+    "contact_title": "CEO",
+    "contact_source": "OFFLINE",
+    "contact_status": "NEW",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-03-06T06:33:34.353Z",
+  "includeInAnalytics": 0,
+  "identity": "jennifer@company4.com",
+  "userProperties": {
+    "company_id": "7049276381",
+    "contact_name": "Jennifer Michaels",
+    "contact_title": "COO",
+    "contact_source": "OFFLINE",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-03-18T04:04:48.625Z",
+  "includeInAnalytics": 0,
+  "identity": "johnjacob@southwest.com",
+  "userProperties": {
+    "contact_name": "John Jacob",
+    "contact_title": "Pilot",
+    "contact_source": "OFFLINE",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-03-18T04:24:09.551Z",
+  "includeInAnalytics": 0,
+  "identity": "kramer@southwest.com",
+  "userProperties": {
+    "contact_name": "James Kramer",
+    "contact_title": "Analyst",
+    "contact_source": "OFFLINE",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-02-17T04:48:43.474Z",
+  "includeInAnalytics": 0,
+  "identity": "bh@hubspot.com",
+  "userProperties": {
+    "contact_name": "Brian Halligan (Sample Contact)",
+    "contact_title": "CEO",
+    "contact_source": "OFFLINE",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Contact Created",
+  "actionDate": "2023-02-17T06:25:23.410Z",
+  "includeInAnalytics": 0,
+  "identity": "michael@company4.com",
+  "userProperties": {
+    "company_id": "7049276381",
+    "contact_name": "Michael Gibson",
+    "contact_title": "CTO",
+    "contact_source": "OFFLINE",
+    "contact_status": "NEW",
+    "contact_score": 0
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380301",
+    "company_domain": "audible.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108363",
+    "company_domain": "canon-europe.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108150",
+    "company_domain": "mintecglobal.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108142",
+    "company_domain": "unity.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108359",
+    "company_domain": "wolterskluwer.com",
+    "company_industry": "PUBLISHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108392",
+    "company_domain": "eunasolutions.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108620",
+    "company_domain": "htjr.io",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380070",
+    "company_domain": "illumina.com",
+    "company_industry": "BIOTECHNOLOGY"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380076",
+    "company_domain": "siriusxm.com",
+    "company_industry": "BROADCAST_MEDIA"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380564",
+    "company_domain": "walmartconnect.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108381",
+    "company_domain": "dotdashmeredith.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380335",
+    "company_domain": "vzbiz.biz",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108611",
+    "company_domain": "cushmanwakefield.com",
+    "company_industry": "REAL_ESTATE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108352",
+    "company_domain": "revvitysignals.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380293",
+    "company_domain": "exitfive.com",
+    "company_industry": "RESTAURANTS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380064",
+    "company_domain": "dnb.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380809",
+    "company_domain": "tgleaders.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380294",
+    "company_domain": "farfetchgroupcareers.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108651",
+    "company_domain": "arkonline.org",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380542",
+    "company_domain": "vincebrooks.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108644",
+    "company_domain": "esriuk.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380797",
+    "company_domain": "csgi.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380800",
+    "company_domain": "testaccount.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380808",
+    "company_domain": "nacro.org.uk",
+    "company_industry": "NON_PROFIT_ORGANIZATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380576",
+    "company_domain": "ebayinc.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888277,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380578",
+    "company_domain": "koddi.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108606",
+    "company_domain": "pg.com",
+    "company_industry": "CONSUMER_GOODS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108399",
+    "company_domain": "wish.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1676614878691,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "7047717356",
+    "company_domain": "company3.com",
+    "company_industry": "MEDIA_PRODUCTION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1676614907094,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "7049276381",
+    "company_domain": "company4.com",
+    "company_industry": "AIRLINES_AVIATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380815",
+    "company_domain": "knowbe4.com",
+    "company_industry": "COMPUTER_NETWORK_SECURITY"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108130",
+    "company_domain": "axioshq.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380310",
+    "company_domain": "experianplc.com",
+    "company_industry": "BANKING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380079",
+    "company_domain": "boomi.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108658",
+    "company_domain": "ideagen.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380336",
+    "company_domain": "webmd.com",
+    "company_industry": "ONLINE_MEDIA"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380317",
+    "company_domain": "willowtreeapps.com",
+    "company_industry": "FOOD_BEVERAGES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380803",
+    "company_domain": "velocity.black",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380587",
+    "company_domain": "upperdeck.com",
+    "company_industry": "MECHANICAL_OR_INDUSTRIAL_ENGINEERING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108109",
+    "company_domain": "skipthedishes.com",
+    "company_industry": "RESTAURANTS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108126",
+    "company_domain": "radancy.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380061",
+    "company_domain": "concur.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380316",
+    "company_domain": "theknotworldwide.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108615",
+    "company_domain": "novatech.co.uk",
+    "company_industry": "COMPUTER_HARDWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380794",
+    "company_domain": "marketingops.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380311",
+    "company_domain": "lifeatspotify.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108364",
+    "company_domain": "delltechnologies.com",
+    "company_industry": "CONSUMER_ELECTRONICS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108390",
+    "company_domain": "hypcccycl.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380057",
+    "company_domain": "peak.community",
+    "company_industry": "CONSUMER_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380300",
+    "company_domain": "forbescommcouncil.com",
+    "company_industry": "HIGHER_EDUCATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380543",
+    "company_domain": "g-p.com",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380561",
+    "company_domain": "sageworld.com",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108868",
+    "company_domain": "niche.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380298",
+    "company_domain": "shiftdigital.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108863",
+    "company_domain": "alludo.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108121",
+    "company_domain": "forsta.wiki",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380292",
+    "company_domain": "stopandshop.com",
+    "company_industry": "SUPERMARKETS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108861",
+    "company_domain": "lifeguarddh.com",
+    "company_industry": "TELECOMMUNICATIONS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380814",
+    "company_domain": "influitive.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108407",
+    "company_domain": "aviso.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108408",
+    "company_domain": "digital-science.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108870",
+    "company_domain": "efuse.gg",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108865",
+    "company_domain": "atira.bc.ca",
+    "company_industry": "NON_PROFIT_ORGANIZATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380322",
+    "company_domain": "frontier.co.uk",
+    "company_industry": "COMPUTER_GAMES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380320",
+    "company_domain": "system1.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380078",
+    "company_domain": "gtnr.it",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108657",
+    "company_domain": "bhvr.com",
+    "company_industry": "CONSUMER_ELECTRONICS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380555",
+    "company_domain": "cyncly.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380804",
+    "company_domain": "7shifts.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052856",
+    "company_domain": "copperleaf.com",
+    "company_industry": "CONSTRUCTION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380573",
+    "company_domain": "neteasegames.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108626",
+    "company_domain": "indexexchange.com",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108120",
+    "company_domain": "unybrands.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380810",
+    "company_domain": "tebra.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380807",
+    "company_domain": "ims.tech",
+    "company_industry": "INSURANCE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380548",
+    "company_domain": "team17.com",
+    "company_industry": "COMPUTER_GAMES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108368",
+    "company_domain": "ans.co.uk",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380599",
+    "company_domain": "connectrn.com",
+    "company_industry": "TELECOMMUNICATIONS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380796",
+    "company_domain": "pollardbanknote.com",
+    "company_industry": "MECHANICAL_OR_INDUSTRIAL_ENGINEERING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380560",
+    "company_domain": "mtch.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108396",
+    "company_domain": "achievers.com",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052853",
+    "company_domain": "homecareassistancevancouver.ca",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108370",
+    "company_domain": "criticalmass.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380601",
+    "company_domain": "disneycareers.com",
+    "company_industry": "ENTERTAINMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380562",
+    "company_domain": "iris.co.uk",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380579",
+    "company_domain": "square-enix-games.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380567",
+    "company_domain": "patientpoint.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108358",
+    "company_domain": "resolver.com",
+    "company_industry": "MECHANICAL_OR_INDUSTRIAL_ENGINEERING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108619",
+    "company_domain": "arrayofstars.com",
+    "company_industry": "GRAPHIC_DESIGN"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108628",
+    "company_domain": "apartments.com",
+    "company_industry": "REAL_ESTATE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108146",
+    "company_domain": "idr.co",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108400",
+    "company_domain": "reallusion.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380051",
+    "company_domain": "joinpavilion.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1676614707233,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "7049276372",
+    "company_domain": "company2.com",
+    "company_industry": "INSURANCE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108102",
+    "company_domain": "altrata.com",
+    "company_industry": "GAMBLING_CASINOS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108646",
+    "company_domain": "servmeco.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380341",
+    "company_domain": "benevity.com",
+    "company_industry": "CONSUMER_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108621",
+    "company_domain": "lightboxre.com",
+    "company_industry": "REAL_ESTATE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380299",
+    "company_domain": "firstround.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052854",
+    "company_domain": "perceptycs.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380821",
+    "company_domain": "paper.co",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108403",
+    "company_domain": "500friends.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052851",
+    "company_domain": "curated.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108612",
+    "company_domain": "brnw.ch",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380339",
+    "company_domain": "perchhq.com",
+    "company_industry": "FOOD_BEVERAGES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108645",
+    "company_domain": "sanity.io",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380050",
+    "company_domain": "infinigate.co.uk",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380570",
+    "company_domain": "odigo.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052852",
+    "company_domain": "artera.io",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108605",
+    "company_domain": "qs.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108134",
+    "company_domain": "shopltk.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1676614923284,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "7047717358",
+    "company_domain": "company5.com",
+    "company_industry": "CIVIC_SOCIAL_ORGANIZATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108366",
+    "company_domain": "neol.co",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108095",
+    "company_domain": "metaversefashioncouncil.org",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380290",
+    "company_domain": "king.nl",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108346",
+    "company_domain": "hicx.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108647",
+    "company_domain": "unitedhealthgroup.com",
+    "company_industry": "INVESTMENT_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108632",
+    "company_domain": "netwrix.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888277,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380595",
+    "company_domain": "autotrader.co.uk",
+    "company_industry": "AUTOMOTIVE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108152",
+    "company_domain": "seekout.com",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380591",
+    "company_domain": "carbonblack.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108143",
+    "company_domain": "mhrglobal.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888277,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380801",
+    "company_domain": "gore.com",
+    "company_industry": "CHEMICALS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108371",
+    "company_domain": "heyday.co",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380565",
+    "company_domain": "aboutwayfair.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108141",
+    "company_domain": "fanaticsinc.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380544",
+    "company_domain": "merck.us",
+    "company_industry": "PHARMACEUTICALS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108404",
+    "company_domain": "ventrolla.co.uk",
+    "company_industry": "CONSTRUCTION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380302",
+    "company_domain": "42agency.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888277,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380583",
+    "company_domain": "trader.ca",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108144",
+    "company_domain": "tulip.co",
+    "company_industry": "FOOD_BEVERAGES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108608",
+    "company_domain": "nullafi.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108405",
+    "company_domain": "jobber.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108365",
+    "company_domain": "workling.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108650",
+    "company_domain": "arcxp.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108663",
+    "company_domain": "gmdail.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108616",
+    "company_domain": "nursenextdoor.com",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380075",
+    "company_domain": "instabase.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108625",
+    "company_domain": "modernmarketingcertificate.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108129",
+    "company_domain": "onxmaps.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380056",
+    "company_domain": "informatech.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108387",
+    "company_domain": "touchbistro.com",
+    "company_industry": "COMPUTER_HARDWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380819",
+    "company_domain": "blackpressmedia.com",
+    "company_industry": "PUBLISHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108379",
+    "company_domain": "paycom.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380062",
+    "company_domain": "version1.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380577",
+    "company_domain": "bigpanda.io",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380575",
+    "company_domain": "letterdrop.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380820",
+    "company_domain": "menlo.edu",
+    "company_industry": "HIGHER_EDUCATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380344",
+    "company_domain": "motorway.co.uk",
+    "company_industry": "AUTOMOTIVE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108391",
+    "company_domain": "lever.co",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108633",
+    "company_domain": "rics.org",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108661",
+    "company_domain": "coxautoinc.eu",
+    "company_industry": "AUTOMOTIVE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108377",
+    "company_domain": "bdot.io",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108097",
+    "company_domain": "wearehue.org",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380342",
+    "company_domain": "nccgroupplc.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108394",
+    "company_domain": "elcompanies.com",
+    "company_industry": "CONSUMER_GOODS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108397",
+    "company_domain": "qmpglobal.in",
+    "company_industry": "GRAPHIC_DESIGN"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108401",
+    "company_domain": "staplesbusinessadvantage.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108350",
+    "company_domain": "2k.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108631",
+    "company_domain": "avg.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108104",
+    "company_domain": "oustermarketing.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108372",
+    "company_domain": "cdkglobal.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380588",
+    "company_domain": "eslfaceitgroup.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380593",
+    "company_domain": "federatedinsurance.com",
+    "company_industry": "INSURANCE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380818",
+    "company_domain": "bonterratech.com",
+    "company_industry": "CONSUMER_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108643",
+    "company_domain": "sportradar.com",
+    "company_industry": "GAMBLING_CASINOS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380580",
+    "company_domain": "nitrogenwealth.com",
+    "company_industry": "INVESTMENT_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380052",
+    "company_domain": "starrez.com",
+    "company_industry": "REAL_ESTATE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108096",
+    "company_domain": "hansonwadegroup.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108614",
+    "company_domain": "roctechnologies.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108603",
+    "company_domain": "mvfglobal.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108360",
+    "company_domain": "nytco.com",
+    "company_industry": "PUBLISHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108406",
+    "company_domain": "spectraarts.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380574",
+    "company_domain": "williamhillplc.co.uk",
+    "company_industry": "GAMBLING_CASINOS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108106",
+    "company_domain": "verticalscope.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380545",
+    "company_domain": "mindbridge.ai",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380581",
+    "company_domain": "costargroup.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380572",
+    "company_domain": "magicfuse.co",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380318",
+    "company_domain": "loblawdigital.co",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380600",
+    "company_domain": "thunderfulgroup.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380340",
+    "company_domain": "cint.com",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052849",
+    "company_domain": "luc.id",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108634",
+    "company_domain": "contentguru.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380072",
+    "company_domain": "kerv.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108382",
+    "company_domain": "applyboard.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108862",
+    "company_domain": "ada.cx",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380086",
+    "company_domain": "softwire.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380559",
+    "company_domain": "seamless.ai",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380325",
+    "company_domain": "veracross.com",
+    "company_industry": "PHOTOGRAPHY"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380822",
+    "company_domain": "docuphase.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380552",
+    "company_domain": "delinian.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380073",
+    "company_domain": "pmc.com",
+    "company_industry": "PUBLISHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108136",
+    "company_domain": "axonify.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108347",
+    "company_domain": "redditinc.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108376",
+    "company_domain": "rightmove.co.uk",
+    "company_industry": "REAL_ESTATE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108108",
+    "company_domain": "articulate.com",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380547",
+    "company_domain": "transoftsolutions.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108111",
+    "company_domain": "gyaan.ai",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108653",
+    "company_domain": "johncradden.ie",
+    "company_industry": "BANKING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380802",
+    "company_domain": "royalambulance.com",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108093",
+    "company_domain": "enthusiastgaming.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108402",
+    "company_domain": "mnpdigital.ca",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380584",
+    "company_domain": "podsiclemedia.com",
+    "company_industry": "ENTERTAINMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380309",
+    "company_domain": "brainstation.io",
+    "company_industry": "EDUCATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380319",
+    "company_domain": "rent.com",
+    "company_industry": "REAL_ESTATE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108393",
+    "company_domain": "bind.media",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108867",
+    "company_domain": "mistplay.com",
+    "company_industry": "LEISURE_TRAVEL_TOURISM"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108117",
+    "company_domain": "ecobee.com",
+    "company_industry": "MECHANICAL_OR_INDUSTRIAL_ENGINEERING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108112",
+    "company_domain": "csisoftware.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380556",
+    "company_domain": "kijiji.ca",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380063",
+    "company_domain": "weareroku.com",
+    "company_industry": "WIRELESS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380816",
+    "company_domain": "abercrombie.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108114",
+    "company_domain": "basf.com",
+    "company_industry": "CHEMICALS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108630",
+    "company_domain": "etsy.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108859",
+    "company_domain": "meetsoci.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380047",
+    "company_domain": "avanade.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380286",
+    "company_domain": "nextdoor.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380598",
+    "company_domain": "assaabloy.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380590",
+    "company_domain": "digitalocean.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380323",
+    "company_domain": "splunk.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380068",
+    "company_domain": "trustpilot.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380046",
+    "company_domain": "opentext.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380324",
+    "company_domain": "lego.com",
+    "company_industry": "CONSUMER_GOODS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380055",
+    "company_domain": "nasdaq.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380303",
+    "company_domain": "hasbro.com",
+    "company_industry": "CONSUMER_GOODS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108373",
+    "company_domain": "kimley-horn.com",
+    "company_industry": "CIVIL_ENGINEERING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108664",
+    "company_domain": "leonardo.com",
+    "company_industry": "DEFENSE_SPACE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380058",
+    "company_domain": "leadforensics.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108637",
+    "company_domain": "pendo.io",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380333",
+    "company_domain": "gopuff.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380331",
+    "company_domain": "eviden.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380283",
+    "company_domain": "crexi.com",
+    "company_industry": "REAL_ESTATE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380048",
+    "company_domain": "riotgames.com",
+    "company_industry": "ENTERTAINMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380541",
+    "company_domain": "nintendo.com",
+    "company_industry": "COMPUTER_GAMES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108864",
+    "company_domain": "angi.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474053050",
+    "company_domain": "affinitiv.com",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108860",
+    "company_domain": "vistaprint.com",
+    "company_industry": "PRINTING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380307",
+    "company_domain": "elastic.co",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380312",
+    "company_domain": "worldpay.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380592",
+    "company_domain": "hilton.com",
+    "company_industry": "HOSPITALITY"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108362",
+    "company_domain": "akamai.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1679102645196,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "7206034379",
+    "company_domain": "amazon.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108380",
+    "company_domain": "tdsynnex.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108149",
+    "company_domain": "biogen.com",
+    "company_industry": "BIOTECHNOLOGY"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108123",
+    "company_domain": "juniper.net",
+    "company_industry": "COMPUTER_NETWORKING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108635",
+    "company_domain": "firework.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108665",
+    "company_domain": "eventbrite.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380315",
+    "company_domain": "yorku.ca",
+    "company_industry": "HIGHER_EDUCATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380088",
+    "company_domain": "nvidia.com",
+    "company_industry": "COMPUTER_HARDWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380054",
+    "company_domain": "bd.com",
+    "company_industry": "BIOTECHNOLOGY"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380345",
+    "company_domain": "bmc.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108100",
+    "company_domain": "henryschein.com",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380297",
+    "company_domain": "stryker.com",
+    "company_industry": "ELECTRICAL_ELECTRONIC_MANUFACTURING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108116",
+    "company_domain": "epam.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380328",
+    "company_domain": "paloaltonetworks.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380084",
+    "company_domain": "mongodb.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380563",
+    "company_domain": "samsclub.com",
+    "company_industry": "WHOLESALE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380074",
+    "company_domain": "expediagroup.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108636",
+    "company_domain": "garmin.com",
+    "company_industry": "CONSUMER_ELECTRONICS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380060",
+    "company_domain": "medtronic.com",
+    "company_industry": "MEDICAL_DEVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108153",
+    "company_domain": "arlon.com",
+    "company_industry": "PRINTING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380080",
+    "company_domain": "lexisnexis.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108617",
+    "company_domain": "telusinternational.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108388",
+    "company_domain": "bestbuy.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108148",
+    "company_domain": "ansys.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380550",
+    "company_domain": "optum.com",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108094",
+    "company_domain": "hellofresh.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380089",
+    "company_domain": "crowdstrike.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108122",
+    "company_domain": "ft.com",
+    "company_industry": "PUBLISHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108623",
+    "company_domain": "venasolutions.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380083",
+    "company_domain": "lenovo.com",
+    "company_industry": "COMPUTER_HARDWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108641",
+    "company_domain": "aurorasolar.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380597",
+    "company_domain": "veeva.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052850",
+    "company_domain": "projul.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380289",
+    "company_domain": "wsj.com",
+    "company_industry": "NEWSPAPERS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108609",
+    "company_domain": "chewy.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108654",
+    "company_domain": "autozone.com",
+    "company_industry": "AUTOMOTIVE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380308",
+    "company_domain": "realpage.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380811",
+    "company_domain": "mathworks.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108113",
+    "company_domain": "ni.com",
+    "company_industry": "ELECTRICAL_ELECTRONIC_MANUFACTURING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108101",
+    "company_domain": "revopscoop.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108627",
+    "company_domain": "sait.ca",
+    "company_industry": "HIGHER_EDUCATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108119",
+    "company_domain": "next.co.uk",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380551",
+    "company_domain": "3m.com",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108355",
+    "company_domain": "confluent.io",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380314",
+    "company_domain": "gehealthcare.com",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108629",
+    "company_domain": "grubhub.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108356",
+    "company_domain": "theaccessgroup.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108105",
+    "company_domain": "forbes.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108660",
+    "company_domain": "atheneum.ai",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380566",
+    "company_domain": "justeattakeaway.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380553",
+    "company_domain": "darktrace.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380805",
+    "company_domain": "taboola.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380085",
+    "company_domain": "blizzard.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380087",
+    "company_domain": "fiverr.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108132",
+    "company_domain": "mimecast.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108604",
+    "company_domain": "intentsify.io",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108349",
+    "company_domain": "shutterstock.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108128",
+    "company_domain": "deliveroo.co.uk",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108103",
+    "company_domain": "8451.com",
+    "company_industry": "MANAGEMENT_CONSULTING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108147",
+    "company_domain": "lastpass.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108656",
+    "company_domain": "loopio.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380798",
+    "company_domain": "kayak.com",
+    "company_industry": "LEISURE_TRAVEL_TOURISM"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108125",
+    "company_domain": "vidyard.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380554",
+    "company_domain": "shipt.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108107",
+    "company_domain": "clio.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108098",
+    "company_domain": "vhb.com",
+    "company_industry": "CONSTRUCTION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108131",
+    "company_domain": "cyient.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380313",
+    "company_domain": "lls.org",
+    "company_industry": "NON_PROFIT_ORGANIZATION_MANAGEMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108655",
+    "company_domain": "olo.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380594",
+    "company_domain": "podium.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380558",
+    "company_domain": "overstock.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380571",
+    "company_domain": "gocardless.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108607",
+    "company_domain": "buzzfeed.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380540",
+    "company_domain": "magnite.com",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108648",
+    "company_domain": "freshbooks.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108624",
+    "company_domain": "opengov.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108642",
+    "company_domain": "jisc.ac.uk",
+    "company_industry": "LIBRARIES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108869",
+    "company_domain": "dext.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380081",
+    "company_domain": "xero.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108384",
+    "company_domain": "amfam.com",
+    "company_industry": "INSURANCE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380285",
+    "company_domain": "workday.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380288",
+    "company_domain": "shopify.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108110",
+    "company_domain": "netapp.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888277,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380539",
+    "company_domain": "northwell.edu",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380065",
+    "company_domain": "bcg.com",
+    "company_industry": "MANAGEMENT_CONSULTING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380795",
+    "company_domain": "fujitsu.com",
+    "company_industry": "WIRELESS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380546",
+    "company_domain": "netsuite.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052855",
+    "company_domain": "sellbetter.xyz",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108383",
+    "company_domain": "telus.com",
+    "company_industry": "TELECOMMUNICATIONS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108622",
+    "company_domain": "walgreens.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380586",
+    "company_domain": "deloitte.com",
+    "company_industry": "MANAGEMENT_CONSULTING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380817",
+    "company_domain": "discord.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1679080837048,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "7206614258",
+    "company_domain": "google.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380329",
+    "company_domain": "fortra.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108378",
+    "company_domain": "gorgias.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380049",
+    "company_domain": "indeed.com",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380295",
+    "company_domain": "paypal.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380296",
+    "company_domain": "tiktok.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380291",
+    "company_domain": "adp.com",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108099",
+    "company_domain": "ecolab.com",
+    "company_industry": "CHEMICALS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108618",
+    "company_domain": "capitalone.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380071",
+    "company_domain": "ringcentral.com",
+    "company_industry": "TELECOMMUNICATIONS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380799",
+    "company_domain": "lowes.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380287",
+    "company_domain": "siemens.com",
+    "company_industry": "WIRELESS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108662",
+    "company_domain": "paylocity.com",
+    "company_industry": "MANAGEMENT_CONSULTING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380069",
+    "company_domain": "vmware.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108395",
+    "company_domain": "randallreilly.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380282",
+    "company_domain": "transunion.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108649",
+    "company_domain": "coxautoinc.com",
+    "company_industry": "AUTOMOTIVE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108361",
+    "company_domain": "globallogic.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108357",
+    "company_domain": "esri.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108140",
+    "company_domain": "informa.com",
+    "company_industry": "INFORMATION_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380326",
+    "company_domain": "equinix.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380806",
+    "company_domain": "appcues.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380569",
+    "company_domain": "sciencespo.fr",
+    "company_industry": "HIGHER_EDUCATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380321",
+    "company_domain": "teradata.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380337",
+    "company_domain": "canto.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380813",
+    "company_domain": "economist.com",
+    "company_industry": "ONLINE_MEDIA"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108354",
+    "company_domain": "bloomberg.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380304",
+    "company_domain": "softwareone.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380538",
+    "company_domain": "genesys.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108133",
+    "company_domain": "instacart.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380053",
+    "company_domain": "arm.com",
+    "company_industry": "SEMICONDUCTORS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380284",
+    "company_domain": "siemens-healthineers.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108367",
+    "company_domain": "kantar.com",
+    "company_industry": "MANAGEMENT_CONSULTING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380082",
+    "company_domain": "ziprecruiter.com",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380334",
+    "company_domain": "draftkings.com",
+    "company_industry": "SPORTS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380306",
+    "company_domain": "lightspeedhq.com",
+    "company_industry": "BUSINESS_SUPPLIES_AND_EQUIPMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108610",
+    "company_domain": "yahooinc.com",
+    "company_industry": "BROADCAST_MEDIA"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108858",
+    "company_domain": "epicgames.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380596",
+    "company_domain": "reyrey.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108151",
+    "company_domain": "goldcast.io",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380305",
+    "company_domain": "hpe.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380066",
+    "company_domain": "servicenow.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108137",
+    "company_domain": "homedepot.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888277,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380557",
+    "company_domain": "axios.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380327",
+    "company_domain": "snowflake.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108613",
+    "company_domain": "ricoh-usa.com",
+    "company_industry": "BUSINESS_SUPPLIES_AND_EQUIPMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052857",
+    "company_domain": "wellsfargo.com",
+    "company_industry": "BANKING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108638",
+    "company_domain": "morganstanley.com",
+    "company_industry": "FINANCIAL_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380568",
+    "company_domain": "solvhealth.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108145",
+    "company_domain": "godaddy.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108127",
+    "company_domain": "cdw.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108866",
+    "company_domain": "eplan.de",
+    "company_industry": "CIVIL_ENGINEERING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380549",
+    "company_domain": "lightcast.io",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108138",
+    "company_domain": "redventures.com",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108374",
+    "company_domain": "multiview.com",
+    "company_industry": "GRAPHIC_DESIGN"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887020,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380332",
+    "company_domain": "guildeducation.com",
+    "company_industry": "HIGHER_EDUCATION"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380067",
+    "company_domain": "coop.co.uk",
+    "company_industry": "INSURANCE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380077",
+    "company_domain": "evercommerce.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380330",
+    "company_domain": "scientificgames.com",
+    "company_industry": "GAMBLING_CASINOS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108348",
+    "company_domain": "comscore.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380585",
+    "company_domain": "data.world",
+    "company_industry": "LOGISTICS_AND_SUPPLY_CHAIN"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108115",
+    "company_domain": "icertis.com",
+    "company_industry": "INFORMATION_TECHNOLOGY_AND_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108139",
+    "company_domain": "ancestry.com",
+    "company_industry": "CONSUMER_SERVICES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108652",
+    "company_domain": "soundphysicians.com",
+    "company_industry": "HOSPITAL_HEALTH_CARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887021,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380059",
+    "company_domain": "asos.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380582",
+    "company_domain": "wellsky.com",
+    "company_industry": "TELECOMMUNICATIONS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108353",
+    "company_domain": "saks.com",
+    "company_industry": "RETAIL"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108375",
+    "company_domain": "tr.com",
+    "company_industry": null
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108659",
+    "company_domain": "youweagency.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108124",
+    "company_domain": "ntst.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380812",
+    "company_domain": "skyscanner.net",
+    "company_industry": "LEISURE_TRAVEL_TOURISM"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380589",
+    "company_domain": "bumble.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108409",
+    "company_domain": "highalpha.com",
+    "company_industry": "VENTURE_CAPITAL_PRIVATE_EQUITY"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108639",
+    "company_domain": "jostle.me",
+    "company_industry": "HUMAN_RESOURCES"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108640",
+    "company_domain": "vividseats.com",
+    "company_industry": "ENTERTAINMENT"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108398",
+    "company_domain": "dealer.com",
+    "company_industry": "AUTOMOTIVE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108602",
+    "company_domain": "waveapps.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108135",
+    "company_domain": "impactmybiz.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108351",
+    "company_domain": "bcgdv.com",
+    "company_industry": "CAPITAL_MARKETS"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887680,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108118",
+    "company_domain": "dunnhumby.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817887681,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108369",
+    "company_domain": "thetrainline.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888864,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474108389",
+    "company_domain": "xmedia.com",
+    "company_industry": "MARKETING_AND_ADVERTISING"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817888276,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9473380343",
+    "company_domain": "guidepoint.com",
+    "company_industry": "COMPUTER_SOFTWARE"
+  }
+}
+{
+  "actionName": "Company Created",
+  "actionDate": 1704817889309,
+  "includeInAnalytics": 0,
+  "companyProperties": {
+    "company_id": "9474052848",
+    "company_domain": "gorevpal.com",
+    "company_industry": "PROFESSIONAL_TRAINING_COACHING"
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-02-17T06:28:57.985Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "15945418964",
+    "meeting_title": null,
+    "meeting_start_time": "2023-02-13T15:00:00.000Z",
+    "meeting_end_time": "2023-02-13T15:15:00.000Z",
+    "meeting_created_at": "2023-02-17T06:28:57.985Z",
+    "meeting_updated_at": "2023-02-17T06:28:58.475Z",
+    "meeting_contacts": []
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-02-17T06:30:45.471Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "15945419204",
+    "meeting_title": null,
+    "meeting_start_time": "2023-02-09T04:30:00.000Z",
+    "meeting_end_time": "2023-02-09T04:45:00.000Z",
+    "meeting_created_at": "2023-02-17T06:30:45.471Z",
+    "meeting_updated_at": "2023-02-17T06:30:45.926Z",
+    "meeting_contacts": [
+      "michael@company4.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-09T08:11:15.051Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16302144467",
+    "meeting_title": "testestest",
+    "meeting_start_time": "2023-03-11T08:15:00.000Z",
+    "meeting_end_time": "2023-03-11T08:45:00.000Z",
+    "meeting_created_at": "2023-03-09T08:11:15.051Z",
+    "meeting_updated_at": "2023-03-10T07:37:29.116Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-10T20:56:33.170Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16347010533",
+    "meeting_title": "ezezezezez",
+    "meeting_start_time": "2023-03-10T21:00:00.000Z",
+    "meeting_end_time": "2023-03-10T21:30:00.000Z",
+    "meeting_created_at": "2023-03-10T20:56:33.170Z",
+    "meeting_updated_at": "2023-03-10T20:56:33.901Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-11T02:46:08.603Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16347031258",
+    "meeting_title": "Test completed meeting",
+    "meeting_start_time": "2023-03-11T03:00:00.000Z",
+    "meeting_end_time": "2023-03-11T03:30:00.000Z",
+    "meeting_created_at": "2023-03-11T02:46:08.603Z",
+    "meeting_updated_at": "2023-03-11T02:46:09.278Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-11T02:43:05.384Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16347904981",
+    "meeting_title": "Testing Meeting Creation",
+    "meeting_start_time": "2023-03-11T03:45:00.000Z",
+    "meeting_end_time": "2023-03-11T04:15:00.000Z",
+    "meeting_created_at": "2023-03-11T02:43:05.384Z",
+    "meeting_updated_at": "2023-03-11T02:54:36.291Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-11T22:21:18.457Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16351568878",
+    "meeting_title": "future test 6",
+    "meeting_start_time": "2023-03-18T21:30:00.000Z",
+    "meeting_end_time": "2023-03-18T22:00:00.000Z",
+    "meeting_created_at": "2023-03-11T22:21:18.457Z",
+    "meeting_updated_at": "2023-03-11T22:29:16.190Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-11T22:59:49.300Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16356442873",
+    "meeting_title": "new ms property test",
+    "meeting_start_time": "2023-03-11T23:00:00.000Z",
+    "meeting_end_time": "2023-03-11T23:30:00.000Z",
+    "meeting_created_at": "2023-03-11T22:59:49.300Z",
+    "meeting_updated_at": "2023-03-11T22:59:50.019Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-11T23:10:27.010Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16356440039",
+    "meeting_title": "testing new ms date",
+    "meeting_start_time": "2023-03-11T23:15:00.000Z",
+    "meeting_end_time": "2023-03-11T23:45:00.000Z",
+    "meeting_created_at": "2023-03-11T23:10:27.010Z",
+    "meeting_updated_at": "2023-03-11T23:10:27.657Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-11T23:13:33.842Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16356440257",
+    "meeting_title": "testing new seconds date",
+    "meeting_start_time": "2023-03-11T23:15:00.000Z",
+    "meeting_end_time": "2023-03-11T23:45:00.000Z",
+    "meeting_created_at": "2023-03-11T23:13:33.842Z",
+    "meeting_updated_at": "2023-03-11T23:13:34.727Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-15T22:02:58.293Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16432210142",
+    "meeting_title": null,
+    "meeting_start_time": "2023-03-15T22:15:00.000Z",
+    "meeting_end_time": "2023-03-15T22:30:00.000Z",
+    "meeting_created_at": "2023-03-15T22:02:58.293Z",
+    "meeting_updated_at": "2023-03-15T22:04:28.047Z",
+    "meeting_contacts": [
+      "jennifer@company4.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-16T23:09:15.036Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16449263038",
+    "meeting_title": "feedback meeting 1",
+    "meeting_start_time": "2023-03-18T23:15:00.000Z",
+    "meeting_end_time": "2023-03-18T23:45:00.000Z",
+    "meeting_created_at": "2023-03-16T23:09:15.036Z",
+    "meeting_updated_at": "2023-03-16T23:15:24.362Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T03:07:34.866Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16452331498",
+    "meeting_title": "feedback meeting 2",
+    "meeting_start_time": "2023-03-17T03:15:00.000Z",
+    "meeting_end_time": "2023-03-17T03:45:00.000Z",
+    "meeting_created_at": "2023-03-17T03:07:34.866Z",
+    "meeting_updated_at": "2023-03-17T03:07:35.570Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T04:10:47.888Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16453996023",
+    "meeting_title": "feedback meeting 3",
+    "meeting_start_time": "2023-03-17T04:15:00.000Z",
+    "meeting_end_time": "2023-03-17T04:45:00.000Z",
+    "meeting_created_at": "2023-03-17T04:10:47.888Z",
+    "meeting_updated_at": "2023-03-17T04:10:48.584Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T04:29:09.859Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16453997260",
+    "meeting_title": "feedback meeting 4",
+    "meeting_start_time": "2023-03-17T04:30:00.000Z",
+    "meeting_end_time": "2023-03-17T05:00:00.000Z",
+    "meeting_created_at": "2023-03-17T04:29:09.859Z",
+    "meeting_updated_at": "2023-03-17T04:29:10.519Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T04:38:04.918Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16454343100",
+    "meeting_title": "feedback meeting 5",
+    "meeting_start_time": "2023-03-17T04:45:00.000Z",
+    "meeting_end_time": "2023-03-17T05:15:00.000Z",
+    "meeting_created_at": "2023-03-17T04:38:04.918Z",
+    "meeting_updated_at": "2023-03-17T04:38:05.430Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T04:46:41.228Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16454343408",
+    "meeting_title": "meeting ignored until past start time",
+    "meeting_start_time": "2023-03-17T05:00:00.000Z",
+    "meeting_end_time": "2023-03-17T05:30:00.000Z",
+    "meeting_created_at": "2023-03-17T04:46:41.228Z",
+    "meeting_updated_at": "2023-03-17T04:46:41.988Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T05:11:26.411Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16454000340",
+    "meeting_title": "meeting ignored until past start time 2",
+    "meeting_start_time": "2023-03-17T05:15:00.000Z",
+    "meeting_end_time": "2023-03-17T05:45:00.000Z",
+    "meeting_created_at": "2023-03-17T05:11:26.411Z",
+    "meeting_updated_at": "2023-03-17T05:11:27.168Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T05:19:30.871Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16455627455",
+    "meeting_title": "final meeting attendance test",
+    "meeting_start_time": "2023-03-17T05:30:00.000Z",
+    "meeting_end_time": "2023-03-17T06:00:00.000Z",
+    "meeting_created_at": "2023-03-17T05:19:30.871Z",
+    "meeting_updated_at": "2023-03-17T05:19:31.443Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T05:37:12.391Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16455684796",
+    "meeting_title": "final meeting attendance test 2",
+    "meeting_start_time": "2023-03-17T05:45:00.000Z",
+    "meeting_end_time": "2023-03-17T06:15:00.000Z",
+    "meeting_created_at": "2023-03-17T05:37:12.391Z",
+    "meeting_updated_at": "2023-03-17T05:37:13.131Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T05:50:30.206Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16454004433",
+    "meeting_title": "final meeting attendance tetst 3",
+    "meeting_start_time": "2023-03-17T06:00:00.000Z",
+    "meeting_end_time": "2023-03-17T06:30:00.000Z",
+    "meeting_created_at": "2023-03-17T05:50:30.206Z",
+    "meeting_updated_at": "2023-03-17T05:50:30.910Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T06:04:32.188Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16454644931",
+    "meeting_title": "final reschedule attended test",
+    "meeting_start_time": "2023-03-17T06:15:00.000Z",
+    "meeting_end_time": "2023-03-17T06:45:00.000Z",
+    "meeting_created_at": "2023-03-17T06:04:32.188Z",
+    "meeting_updated_at": "2023-03-17T06:05:47.233Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T07:43:56.683Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16456795343",
+    "meeting_title": "testing new meeting bug",
+    "meeting_start_time": "2023-03-17T07:45:00.000Z",
+    "meeting_end_time": "2023-03-17T08:15:00.000Z",
+    "meeting_created_at": "2023-03-17T07:43:56.683Z",
+    "meeting_updated_at": "2023-03-17T07:43:57.330Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T07:49:08.168Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16456831696",
+    "meeting_title": "testing arda's bug",
+    "meeting_start_time": "2023-03-17T08:15:00.000Z",
+    "meeting_end_time": "2023-03-17T08:45:00.000Z",
+    "meeting_created_at": "2023-03-17T07:49:08.168Z",
+    "meeting_updated_at": "2023-03-17T08:03:16.078Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T08:18:32.976Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16457037808",
+    "meeting_title": "testing new bug",
+    "meeting_start_time": "2023-03-17T08:30:00.000Z",
+    "meeting_end_time": "2023-03-17T09:00:00.000Z",
+    "meeting_created_at": "2023-03-17T08:18:32.976Z",
+    "meeting_updated_at": "2023-03-17T08:26:48.157Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T08:28:11.214Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16457087713",
+    "meeting_title": "testing arda's bug 2",
+    "meeting_start_time": "2023-03-17T08:45:00.000Z",
+    "meeting_end_time": "2023-03-17T09:15:00.000Z",
+    "meeting_created_at": "2023-03-17T08:28:11.214Z",
+    "meeting_updated_at": "2023-03-17T08:33:47.664Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-17T22:31:08.806Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16472006592",
+    "meeting_title": null,
+    "meeting_start_time": "2023-03-17T22:45:00.000Z",
+    "meeting_end_time": "2023-03-17T23:00:00.000Z",
+    "meeting_created_at": "2023-03-17T22:31:08.806Z",
+    "meeting_updated_at": "2023-03-17T22:31:52.090Z",
+    "meeting_contacts": [
+      "jennifer@company4.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-18T07:36:11.116Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16483875566",
+    "meeting_title": "timestamp comparison",
+    "meeting_start_time": "2023-03-18T08:00:00.000Z",
+    "meeting_end_time": "2023-03-18T08:30:00.000Z",
+    "meeting_created_at": "2023-03-18T07:36:11.116Z",
+    "meeting_updated_at": "2023-03-18T07:41:47.707Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-19T22:41:51.519Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16494141927",
+    "meeting_title": "testing action_date overhaul",
+    "meeting_start_time": "2023-03-19T22:45:00.000Z",
+    "meeting_end_time": "2023-03-19T23:15:00.000Z",
+    "meeting_created_at": "2023-03-19T22:41:51.519Z",
+    "meeting_updated_at": "2023-03-19T22:43:08.702Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-19T23:05:54.857Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16494142938",
+    "meeting_title": "final final test",
+    "meeting_start_time": "2023-03-19T23:15:00.000Z",
+    "meeting_end_time": "2023-03-19T23:45:00.000Z",
+    "meeting_created_at": "2023-03-19T23:05:54.857Z",
+    "meeting_updated_at": "2023-03-19T23:08:19.953Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-19T23:38:52.072Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16494359753",
+    "meeting_title": "second meeting test against query logic",
+    "meeting_start_time": "2023-03-19T23:45:00.000Z",
+    "meeting_end_time": "2023-03-20T00:15:00.000Z",
+    "meeting_created_at": "2023-03-19T23:38:52.072Z",
+    "meeting_updated_at": "2023-03-19T23:38:52.668Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-03-19T23:38:04.709Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16494528971",
+    "meeting_title": "optimized attendance sql query",
+    "meeting_start_time": "2023-03-19T23:45:00.000Z",
+    "meeting_end_time": "2023-03-20T00:15:00.000Z",
+    "meeting_created_at": "2023-03-19T23:38:04.709Z",
+    "meeting_updated_at": "2023-03-19T23:39:06.941Z",
+    "meeting_contacts": [
+      "bh@hubspot.com"
+    ]
+  }
+}
+{
+  "actionName": "Meeting Created",
+  "actionDate": "2023-04-06T19:17:14.217Z",
+  "includeInAnalytics": 0,
+  "meetingProperties": {
+    "meeting_id": "16838470090",
+    "meeting_title": null,
+    "meeting_start_time": "2023-04-06T19:17:08.379Z",
+    "meeting_end_time": "2023-04-06T19:32:08.379Z",
+    "meeting_created_at": "2023-04-06T19:17:14.217Z",
+    "meeting_updated_at": "2023-04-06T19:17:14.548Z",
+    "meeting_contacts": [
+      "jennifer@company4.com"
+    ]
+  }
+}
+drain queue
+finish processing account
