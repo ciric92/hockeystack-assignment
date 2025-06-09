@@ -380,7 +380,7 @@ const processMeetings = async(domain, hubId, q) => {
       const isCreated = !lastPulledDate || (new Date(meeting.createdAt) > lastPulledDate);
 
       // Saving lastPulledDates for meetings to ensure the above isCreated logic works correctly between frames.
-      account.lastPulledDates.meetings = now;
+      account.lastPulledDates.meetings = meeting.updatedAt;
 
       q.push({
         actionName: isCreated ? 'Meeting Created' : 'Meeting Updated',
