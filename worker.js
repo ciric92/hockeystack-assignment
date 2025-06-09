@@ -292,13 +292,13 @@ const drainQueue = async (domain, actions, q) => {
 const processMeetings = async(domain, hubId, q) => {
 
   const account = domain.integrations.hubspot.accounts.find(account => account.hubId === hubId);
-  const lastPulledDate = new Date(account.lastPulledDates.meetings);
   const now = new Date();
-
+  
   const offsetObject = {};
   const limit = 100;
-
+  
   while (true) {
+    const lastPulledDate = new Date(account.lastPulledDates.meetings);
     const lastModifiedDate = offsetObject.lastModifiedDate || lastPulledDate;
     const lastModifiedDateFilter = generateLastModifiedDateFilter(lastModifiedDate, now, 'hs_lastmodifieddate');
 
@@ -379,6 +379,9 @@ const processMeetings = async(domain, hubId, q) => {
       // - Any pull after that => if meeting.createdAt is after lastPulledDate (meaning it's in current page) then it's created, otherwise it's updated
       const isCreated = !lastPulledDate || (new Date(meeting.createdAt) > lastPulledDate);
 
+      // Saving lastPulledDates for meetings to ensure the above isCreated logic works correctly between frames.
+      account.lastPulledDates.meetings = now;
+
       q.push({
         actionName: isCreated ? 'Meeting Created' : 'Meeting Updated',
         actionDate: new Date(isCreated ? meeting.createdAt : meeting.updatedAt),
@@ -386,10 +389,16 @@ const processMeetings = async(domain, hubId, q) => {
       });
     });
 
-    if (!offsetObject?.after) break;
+
+    if (!offsetObject?.after) {
+      break;
+    } else if (offsetObject?.after >= 9900) {
+      // We've reached the maximum offset value for pagination
+      // Resetting the offset object so that it starts from the lastPulledDate
+      offsetObject = {};
+    }
   }
 
-  account.lastPulledDates.meetings = now;
   await saveDomain(domain);
 
   return true;
@@ -411,7 +420,7 @@ const pullDataFromHubspot = async () => {
 
     const actions = [];
     const q = createQueue(domain, actions);
-    
+
     try {
       await processContacts(domain, account.hubId, q);
       console.log('process contacts');
