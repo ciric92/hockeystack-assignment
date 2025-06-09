@@ -394,8 +394,9 @@ const processMeetings = async(domain, hubId, q) => {
       break;
     } else if (offsetObject?.after >= 9900) {
       // We've reached the maximum offset value for pagination
-      // Resetting the offset object so that it starts from the lastPulledDate
-      offsetObject = {};
+      // Resetting offset to the last modified date of the last meeting in the batch
+      offsetObject.after = 0;
+      offsetObject.lastModifiedDate = new Date(meetings[meetings.length - 1].updatedAt).valueOf();
     }
   }
 
